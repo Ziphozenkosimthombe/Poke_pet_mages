@@ -1,0 +1,77 @@
+
+*{
+  box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Handjet:wght@200&family=Oswald:wght@300;400;500;600&family=Poppins:wght@300;400;500;600&family=Roboto+Slab&family=Roboto:wght@400;700&family=Rubik+Moonrocks&family=Source+Sans+3&display=swap');
+
+body{
+  color:whitesmoke;
+  /* background-color: rgba(245, 213, 39, 0.8); */
+  background-image: url('https://wallpapers.com/images/featured/best-ever-desktop-bgt6dccypy1dfk0c.jpg');
+  margin: 0;
+  font-family: rubik;
+}
+
+.card{
+  list-style: none;
+  padding: 40px;
+  background-color: rgba(39, 245, 131, 0.28);
+  color:wheat;
+  text-align: center;
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+.card:hover{
+  animation: bounce 0.5s linear;
+}
+
+@keyframes bounce{
+  20%{
+    transform: translateY(-6px);
+  }
+  40%{
+    transform: translateY(0px);
+  }
+  60%{
+    transform: translateY(-2px);
+  }
+  80%{
+    transform: translateY(-0px);
+  }
+}
+.card-title{
+  text-transform: uppercase;
+  font-size: 35px;
+  font-weight: normal;
+}
+
+.card-type{
+  font-weight: lighter;
+  color:#07d6f6;
+  font-size: 20px;
+}
+.card-image{
+  width: 65%;
+}
+
+#pocOl{
+  padding-inline-start: 0;
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap:40px;
+}
+
+.container{
+  padding: 40px;
+  margin: 0 auto;
+}
+
+h1{
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 54px;
+}
